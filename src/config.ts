@@ -3,9 +3,9 @@
 // Edite este arquivo para personalizar o site
 // ============================================
 
-export const WHATSAPP_NUMBER = "5548988247011";
+export const WHATSAPP_NUMBER = "554899614484";
 
-export const AGENT_NAME = "Seu nome";
+export const AGENT_NAME = "Marisete Sela";
 
 export const AGENT_TITLE = "Consultora de Imóveis de Alto Padrão";
 

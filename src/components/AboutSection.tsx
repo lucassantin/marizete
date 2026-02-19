@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom"; // <-- Import adicionado
 import { AGENT_NAME } from "@/config";
 import WhatsAppButton from "./WhatsAppButton";
+import profile from "../../public/profile.png";
 
 const AboutSection = () => {
   return (
@@ -18,7 +19,7 @@ const AboutSection = () => {
           >
             <div className="aspect-[3/4] overflow-hidden bg-muted">
               <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+                src={profile}
                 alt={AGENT_NAME}
                 className="h-full w-full object-cover"
               />
